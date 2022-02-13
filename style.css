@@ -18,17 +18,14 @@ body{
   
   font-family: Monstserrat; 
   color: rgb(255, 255, 255) ;
-  background-image:  url(foto/ole.JPG);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+ 
   /*text-shadow: 3px 3px   #000000;*/
   /*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
 
 }
 
 nav {
-  background-color:#f8f8f8 ;
+  background-color:#d3d3d3 ;
   color: rgb(0, 0, 0) ;
   display: flex;
   justify-content:  flex-end;
@@ -70,6 +67,10 @@ header{
   align-items: center;
   display:flex;
   flex-direction: column; 
+  background-image:  url(foto/ole.JPG);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 header h1 { 
@@ -83,10 +84,24 @@ header p {
   margin-left: 12px;
   margin-right: 12px;
   margin-top: 0;
-  
-  
-  
-  
+}
+
+.def{
+  font-size: 35px;
+}
+
+
+
+
+
+.bio{
+  font-size: 20px;
+  margin: 0;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 0;
+  color: #ffffff;
+  background-color: black;
 }
 
 .sounds-containers{
@@ -167,7 +182,7 @@ section {
 }
 
 .social-links a {
-  color: rgb(255, 255, 255) ;
+  color: rgb(0, 0, 0) ;
   font-size: 30px;
   margin: 0 10px;
   display: inline-block;
